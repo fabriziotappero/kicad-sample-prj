@@ -1,0 +1,12 @@
+This is a short description on how to use Kicost
+
+1) download and install Kicost using pip: 
+		pip install kicost
+
+2) generate BOM file dpu.xml using kicad schematic editor
+
+3) run command:
+		 kicost -i dpu.xml --overwrite --fields Description MAN
+
+4) open dpu.xlsx in excel and change "Board Qty"
+
